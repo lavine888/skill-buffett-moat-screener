@@ -1,0 +1,48 @@
+name: 规则建议
+description: 提议一条新的护城河硬规则，或修订现有规则口径
+title: "[规则] "
+labels: ["rule"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        新规则必须是**硬条件**，而不是评分项或加权分。请说明它在决策日如何重建。
+  - type: input
+    id: name
+    attributes:
+      label: 规则名称
+      description: 一句话说明它筛掉什么
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: 为什么它是护城河信号
+      description: 它反映的是哪一类结构性优势，而不是短期波动或行业 beta
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: 依赖字段与口径
+      description: 需要哪些 PandaData 字段？如何在决策日重建？缺失或冲突时返回什么？
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: 边界与反例
+      description: 哪些情况不应该被筛掉？银行、亏损、重组、借壳等特殊情形如何处理？
+    validations:
+      required: true
+  - type: checkboxes
+    id: invariants
+    attributes:
+      label: 不变量确认
+      options:
+        - label: 该规则可以做到 point-in-time 重建
+          required: true
+        - label: 缺失数据返回 insufficient_data，而不是填零或猜测
+          required: true
+        - label: 我愿意补充对应的边界测试
+          required: false

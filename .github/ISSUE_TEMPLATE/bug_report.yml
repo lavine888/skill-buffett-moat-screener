@@ -1,0 +1,49 @@
+name: Bug 报告
+description: 报告筛选结果、校验器、缓存或物化行为中的错误
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先确认这是**行为错误**，而不是口径讨论。口径问题请用「规则建议」模板。
+
+        提交前请阅读 [贡献指南](https://github.com/lavine888/skill-buffett-moat-screener/blob/main/CONTRIBUTING.md)。
+  - type: textarea
+    id: happened
+    attributes:
+      label: 现象
+      description: 你观察到了什么？
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 按 point-in-time 与 fail-closed 原则，正确结果应该是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最小复现
+      description: 命令、输入与输出。请勿粘贴密钥或私有数据。
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      description: skill.json 中的 version，或 commit SHA
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 复现过程中没有真实网络调用（PandaData 相关使用 fixture 或 mock）
+          required: true
+        - label: 我已搜索过现有 issue，确认没有重复
+          required: true

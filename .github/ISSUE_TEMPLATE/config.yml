@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 口径与方法文档
+    url: https://github.com/lavine888/skill-buffett-moat-screener/blob/main/references/methodology.md
+    about: 规则口径、方法冻结与数据源边界
+  - name: 变更记录
+    url: https://github.com/lavine888/skill-buffett-moat-screener/blob/main/CHANGELOG.md
+    about: 已发布版本与行为变更
+  - name: 贡献指南
+    url: https://github.com/lavine888/skill-buffett-moat-screener/blob/main/CONTRIBUTING.md
+    about: 项目不变量、本地校验命令与 PR 检查清单
