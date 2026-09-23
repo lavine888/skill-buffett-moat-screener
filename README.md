@@ -227,6 +227,18 @@ SKILL.md               Agent Skill 入口与 qsh-form
 
 本项目仅用于研究与教育，不代表 Warren Buffett、Berkshire Hathaway、PandaAI 或 QUANTSKILLS 官方，与其无隶属关系。筛选结果不是投资建议，不验证收益声明，也不构成交易指令。
 
+## 🌱 相关项目
+
+同一个「证据优先」生态下的姊妹项目：本 Skill 负责 point-in-time 基本面筛选。
+
+| 项目 | 说明 |
+| --- | --- |
+| [Lavine-Skill-Runtime](https://github.com/lavine888/Lavine-Skill-Runtime) | Execution layer that runs reviewed skills end to end |
+| [Accounting-Red-Flag-Detector](https://github.com/lavine888/Accounting-Red-Flag-Detector) | Point-in-time forensic screen for A-share accounting red flags |
+| [career-alpha](https://github.com/lavine888/career-alpha) | Evidence-grounded career decision system |
+| [ScamCity](https://github.com/lavine888/ScamCity) | Multi-agent sandbox for fraud-intervention experiments |
+| [flux-evidence-lab](https://github.com/lavine888/flux-evidence-lab) | Verifiable decision trail for reviewable AI runs |
+
 ## License
 
 [GNU General Public License v3.0](LICENSE)

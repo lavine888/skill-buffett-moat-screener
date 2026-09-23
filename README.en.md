@@ -172,6 +172,18 @@ SKILL.md               Agent Skill entry point and qsh-form
 
 This project is for research and education only. It is not affiliated with Warren Buffett, Berkshire Hathaway, PandaAI, or QUANTSKILLS. Screening results are not investment advice, verified performance, or trading instructions.
 
+## 🌱 Related Projects
+
+Companion projects in the same evidence-first ecosystem — this skill owns the point-in-time fundamental screen.
+
+| Project | What it is |
+| --- | --- |
+| [Lavine-Skill-Runtime](https://github.com/lavine888/Lavine-Skill-Runtime) | Execution layer that runs reviewed skills end to end |
+| [Accounting-Red-Flag-Detector](https://github.com/lavine888/Accounting-Red-Flag-Detector) | Point-in-time forensic screen for A-share accounting red flags |
+| [career-alpha](https://github.com/lavine888/career-alpha) | Evidence-grounded career decision system |
+| [ScamCity](https://github.com/lavine888/ScamCity) | Multi-agent sandbox for fraud-intervention experiments |
+| [flux-evidence-lab](https://github.com/lavine888/flux-evidence-lab) | Verifiable decision trail for reviewable AI runs |
+
 ## License
 
 [GNU General Public License v3.0](LICENSE)
